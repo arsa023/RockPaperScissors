@@ -1,4 +1,4 @@
-import random  # pozivam biblioteku za random choice
+import random
 
 # ------------------------------------
 
@@ -8,11 +8,11 @@ def game():
 user_score = 0
 ai_score = 0
 
-    while True: # Igrica se ponavlja kada user pritisne Y
+while True:
         user_score = 0
         ai_score = 0
-        user_choice = input("Rock, Paper or Scissors? ").lower()    # user unosi izbor
-        random_num = random.randint(0, 2)  # pc random dobija izbor 0-rock 1- paper - 2- scissors
+        user_choice = input("Rock, Paper or Scissors? ").lower()    # user enters his choice
+        random_num = random.randint(0, 2)  # randomly choosing one >  0-rock 1- paper - 2- scissors
 
         while user_choice != 'rock' and user_choice != 'paper' and user_choice != 'scissors':
             user_choice = input("Invalid input, please try again: ").lower()
@@ -83,5 +83,3 @@ ai_score = 0
         print("\n_____________________\n")
 
 
-
-# KAKO RESTARTOVATI SCOR??!?!?!?
