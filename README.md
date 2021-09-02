@@ -1,3 +1,3 @@
 # RockPaperScissors
 
-Creating game with Python
+After learning if / el / else functions, i made this RockPaperScissors game to test what i have learned 
